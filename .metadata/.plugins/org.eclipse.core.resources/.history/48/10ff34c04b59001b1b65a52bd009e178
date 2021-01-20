@@ -1,0 +1,27 @@
+package objectrepository;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class RediffLoginPage 
+{
+	WebDriver driver;
+	//Create a constructor
+	
+	
+	public RediffLoginPage(WebDriver driver)
+	{
+		// TODO Auto-generated constructor stub
+		this.driver=driver;
+	}
+
+	By username=By.xpath("//*[@id=\"login1\"]");
+	By password=By.name("passwd");
+	By signIn=By.name("proceed");
+	
+	public WebElement emailId()
+	{
+		return driver.findElement(username);
+	}
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="47" started-at="2021-01-06T15:39:35 IST" finished-at="2021-01-06T15:39:35 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="47" started-at="2021-01-06T15:39:35 IST" finished-at="2021-01-06T15:39:35 IST">
+      <class name="Selenium.Maven_Java.DemoTest">
+        <test-method status="PASS" signature="analyse1()[pri:0, instance:Selenium.Maven_Java.DemoTest@1e2dbf3]" name="analyse1" duration-ms="0" started-at="2021-01-06T15:39:35 IST" finished-at="2021-01-06T15:39:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- analyse1 -->
+        <test-method status="PASS" signature="analyseTest()[pri:0, instance:Selenium.Maven_Java.DemoTest@1e2dbf3]" name="analyseTest" duration-ms="0" started-at="2021-01-06T15:39:35 IST" finished-at="2021-01-06T15:39:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- analyseTest -->
+      </class> <!-- Selenium.Maven_Java.DemoTest -->
+      <class name="Selenium.Maven_Java.Demo2Test">
+        <test-method status="PASS" signature="update1()[pri:0, instance:Selenium.Maven_Java.Demo2Test@19627bc]" name="update1" duration-ms="0" started-at="2021-01-06T15:39:35 IST" finished-at="2021-01-06T15:39:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update1 -->
+        <test-method status="PASS" signature="update()[pri:0, instance:Selenium.Maven_Java.Demo2Test@19627bc]" name="update" duration-ms="0" started-at="2021-01-06T15:39:35 IST" finished-at="2021-01-06T15:39:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+      </class> <!-- Selenium.Maven_Java.Demo2Test -->
+      <class name="Selenium.Maven_Java.Demo1Test">
+        <test-method status="PASS" signature="template()[pri:0, instance:Selenium.Maven_Java.Demo1Test@1b92f0a]" name="template" duration-ms="0" started-at="2021-01-06T15:39:35 IST" finished-at="2021-01-06T15:39:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- template -->
+        <test-method status="PASS" signature="template1()[pri:0, instance:Selenium.Maven_Java.Demo1Test@1b92f0a]" name="template1" duration-ms="0" started-at="2021-01-06T15:39:35 IST" finished-at="2021-01-06T15:39:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- template1 -->
+      </class> <!-- Selenium.Maven_Java.Demo1Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="56" started-at="2021-01-07T16:20:11 IST" finished-at="2021-01-07T16:20:11 IST">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="56" started-at="2021-01-07T16:20:11 IST" finished-at="2021-01-07T16:20:11 IST">
+      <class name="run.Priority">
+        <test-method status="PASS" signature="e_method()[pri:0, instance:run.Priority@7d907bac]" name="e_method" duration-ms="9" started-at="2021-01-07T16:20:11 IST" finished-at="2021-01-07T16:20:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e_method -->
+        <test-method status="PASS" signature="a_method()[pri:1, instance:run.Priority@7d907bac]" name="a_method" duration-ms="2" started-at="2021-01-07T16:20:11 IST" finished-at="2021-01-07T16:20:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_method -->
+        <test-method status="PASS" signature="d_method()[pri:3, instance:run.Priority@7d907bac]" name="d_method" duration-ms="1" started-at="2021-01-07T16:20:11 IST" finished-at="2021-01-07T16:20:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d_method -->
+        <test-method status="PASS" signature="c_method()[pri:6, instance:run.Priority@7d907bac]" name="c_method" duration-ms="1" started-at="2021-01-07T16:20:11 IST" finished-at="2021-01-07T16:20:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_method -->
+        <test-method status="PASS" signature="b_method()[pri:9, instance:run.Priority@7d907bac]" name="b_method" duration-ms="1" started-at="2021-01-07T16:20:11 IST" finished-at="2021-01-07T16:20:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_method -->
+      </class> <!-- run.Priority -->
+    </test> <!-- Regression -->
+  </suite> <!-- Loan Department -->
+</testng-results>

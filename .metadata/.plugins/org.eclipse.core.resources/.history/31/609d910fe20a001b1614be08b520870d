@@ -1,0 +1,15 @@
+package store;
+
+import basic_prgms.P1;
+
+public class C2 extends P1
+{
+
+	public static void main(String[] args) 
+	{
+		C2 obj=new C2();
+		System.out.println("Result is "+obj.mul(2.4,3.6)+obj.div(32, 8));
+
+	}
+
+}

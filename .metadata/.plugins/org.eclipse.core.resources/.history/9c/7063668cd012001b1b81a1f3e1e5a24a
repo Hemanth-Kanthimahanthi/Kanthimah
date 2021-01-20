@@ -1,0 +1,16 @@
+package receive;
+
+public class InterviewProcess extends Interview
+{
+	public InterviewProcess(String name, String emailId, int batchCode, String company1, String company2) 
+	{
+		super(name, emailId, batchCode, company1, company2);
+		
+	}
+
+	public static void main(String[] args) 
+	{
+		Interview i1=new Interview("Harsha","h1rsh1@gmail.com",1235,"Accenture","Capgemini");
+		i1.interviewInfo();
+	}
+}

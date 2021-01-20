@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-07T16:07:39 IST" name="Suite" finished-at="2021-01-07T16:07:57 IST" duration-ms="17744">
+    <groups>
+    </groups>
+    <test started-at="2021-01-07T16:07:39 IST" name="Test" finished-at="2021-01-07T16:07:57 IST" duration-ms="17744">
+      <class name="Selenium.Maven_Java.CheckTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Selenium.Maven_Java.CheckTest@36d585c]" started-at="2021-01-07T16:07:39 IST" name="launchBrowser" finished-at="2021-01-07T16:07:49 IST" duration-ms="9894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="verifyHomepageTitle()[pri:0, instance:Selenium.Maven_Java.CheckTest@36d585c]" started-at="2021-01-07T16:07:49 IST" name="verifyHomepageTitle" finished-at="2021-01-07T16:07:49 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method signature="register()[pri:0, instance:Selenium.Maven_Java.CheckTest@36d585c]" started-at="2021-01-07T16:07:49 IST" name="register" finished-at="2021-01-07T16:07:51 IST" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="goBackToHomepage()[pri:0, instance:Selenium.Maven_Java.CheckTest@36d585c]" started-at="2021-01-07T16:07:51 IST" name="goBackToHomepage" finished-at="2021-01-07T16:07:53 IST" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage -->
+        <test-method is-config="true" signature="verifyHomepageTitle()[pri:0, instance:Selenium.Maven_Java.CheckTest@36d585c]" started-at="2021-01-07T16:07:53 IST" name="verifyHomepageTitle" finished-at="2021-01-07T16:07:53 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method signature="support()[pri:1, instance:Selenium.Maven_Java.CheckTest@36d585c]" started-at="2021-01-07T16:07:53 IST" name="support" finished-at="2021-01-07T16:07:55 IST" duration-ms="1910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- support -->
+        <test-method is-config="true" signature="goBackToHomepage()[pri:0, instance:Selenium.Maven_Java.CheckTest@36d585c]" started-at="2021-01-07T16:07:55 IST" name="goBackToHomepage" finished-at="2021-01-07T16:07:57 IST" duration-ms="1784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage -->
+      </class> <!-- Selenium.Maven_Java.CheckTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

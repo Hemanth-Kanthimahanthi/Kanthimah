@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="Selenium.Maven_Java.Demo1Test">
+        <methods>
+          <include name="template"/>
+          <include name="template1"/>
+        </methods>
+      </class> <!-- Selenium.Maven_Java.Demo1Test -->
+      <class name="Selenium.Maven_Java.Demo2Test">
+        <methods>
+          <include name="update"/>
+          <include name="update1"/>
+        </methods>
+      </class> <!-- Selenium.Maven_Java.Demo2Test -->
+      <class name="Selenium.Maven_Java.DemoTest">
+        <methods>
+          <include name="analyse1"/>
+          <include name="analyseTest"/>
+        </methods>
+      </class> <!-- Selenium.Maven_Java.DemoTest -->
+      <class name="Selenium.Maven_Java.CheckTest">
+        <methods>
+          <include name="register"/>
+          <include name="verifyHomepageTitle"/>
+          <include name="support"/>
+          <include name="launchBrowser"/>
+          <include name="goBackToHomepage"/>
+        </methods>
+      </class> <!-- Selenium.Maven_Java.CheckTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

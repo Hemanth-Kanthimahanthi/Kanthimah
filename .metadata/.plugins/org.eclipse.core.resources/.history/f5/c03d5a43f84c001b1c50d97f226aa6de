@@ -1,0 +1,22 @@
+package exception_prgms;
+
+import java.math.*;
+import java.text.*;
+import java.util.*;
+
+public class Cricket 
+{
+	public static void main(String[] args) 
+	{
+		
+		System.out.println("                       INDIA VS AUSTRALIA                ");
+		System.out.println("*************************************************************************************");
+		System.out.println("                       INDIA won the toss and elected to BAT first                                   ");
+		
+		DecimalFormat df=new DecimalFormat("0.0");
+		df.setRoundingMode(RoundingMode.DOWN);
+		long a[]=new long[12];
+		Scanner sc=new Scanner(System.in);
+		
+	}
+}

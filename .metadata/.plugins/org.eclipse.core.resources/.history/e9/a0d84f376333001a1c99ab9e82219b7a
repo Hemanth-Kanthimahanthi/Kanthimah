@@ -1,0 +1,45 @@
+package programs_arrays;
+
+import java.util.Scanner;
+
+public class Insertion 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter Array size");
+		int size=scan.nextInt();
+		int[] a1=new int[size];
+		System.out.println("Enter"+size+" elements");
+		for(int i=0;i<=a1.length-1;i++)
+		{
+			a1[i]=scan.nextInt();
+		}
+		System.out.println("Array index are from 0 to"+(a1.length-1));
+		int index=scan.nextInt();
+		System.out.println("Enter new element to insert.........");
+		int ele=scan.nextInt();
+		int [] a2=new int[a1.length+1];
+		for(int i=0;i<=index-1;i++)
+		{
+			a2[i]=a1[i];
+		}
+		a2[index]=ele;
+		for(int j=index;j<=a1.length-1;j++)
+		{
+			a2[j+1]=a1[j];
+		}
+		System.out.println("Before Insertion.........");
+		for(int x:a1)
+		{
+			System.out.print(x+" ");
+		}
+		System.out.println( );
+		System.out.println("After Insertion.........");
+		for(int y:a2)
+		{
+			System.out.print(y+" ");
+		}
+		System.out.println( );	
+	}
+}

@@ -1,0 +1,14 @@
+package store;
+
+import basic_prgms.P1;
+
+public class C2 extends P1
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}
